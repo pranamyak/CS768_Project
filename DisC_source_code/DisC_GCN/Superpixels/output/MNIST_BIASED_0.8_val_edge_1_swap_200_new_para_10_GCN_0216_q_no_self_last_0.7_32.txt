@@ -1,0 +1,894 @@
+Using backend: pytorch
+pa...........................................................................0.1
+pw...........................................................................0.0
+irm_lambda..................................................................50.0
+lambda_dis...................................................................1.0
+lambda_swap.................................................................10.0
+q............................................................................0.7
+masker_lr...................................................................0.01
+seed..........................................................................32
+config..............configs/superpixels_graph_classification_IRM_MNIST_100k.json
+epochs......................................................................None
+mask_epochs..................................................................200
+swap_epochs..................................................................200
+eval_epochs..................................................................200
+use_mask.......................................................................1
+gpu_id......................................................................None
+model.......................................................................None
+dataset.....................................................MNIST_BIASED_0.8_val
+out_dir..............MNIST_BIASED_0.8_val_edge_mask_1_swap_200_q_0.7_1_10_collab
+
+DATASET_NAME MNIST
+[I] Loading dataset MNIST_BIASED_0.8_val...
+train, biased test, unbiased test, val sizes : 3000 1497 1497 1500
+[I] Finished loading.
+[I] Data load time: 1.1641s
+self_loop False
+process ...
+222222222222222222222222
+INFO: Weight Sparsity [0.0000%] 
+done! cost time:[0.20 min]
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:16:26 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [1/200] Loss:[0.2421] Train:[69.47] Val:[33.33] Biased Test:[33.33] Update Biased Test:[33.33] Best Biased Test:[33.33]| Unbiased Test:[33.33]  Update Unbiased Test:[33.33] Best Unbiased Test:[33.33] epoch:[0] | Time:[0.13 min] | [0.24%] [49.07%] [49.59%] [0.93%] [0.17%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:16:32 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [2/200] Loss:[0.0708] Train:[26.53] Val:[31.07] Biased Test:[32.80] Update Biased Test:[33.33] Best Biased Test:[33.33]| Unbiased Test:[32.80]  Update Unbiased Test:[33.33] Best Unbiased Test:[33.33] epoch:[0] | Time:[0.24 min] | [11.95%] [35.68%] [46.44%] [5.57%] [0.36%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:16:39 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [3/200] Loss:[0.0455] Train:[2.80] Val:[29.07] Biased Test:[31.60] Update Biased Test:[33.33] Best Biased Test:[33.33]| Unbiased Test:[31.60]  Update Unbiased Test:[33.33] Best Unbiased Test:[33.33] epoch:[0] | Time:[0.36 min] | [23.06%] [27.11%] [44.21%] [4.23%] [1.38%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:16:46 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [4/200] Loss:[0.0410] Train:[2.33] Val:[29.27] Biased Test:[32.40] Update Biased Test:[33.33] Best Biased Test:[33.33]| Unbiased Test:[32.40]  Update Unbiased Test:[33.33] Best Unbiased Test:[33.33] epoch:[0] | Time:[0.47 min] | [22.07%] [34.12%] [40.35%] [2.75%] [0.72%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:16:53 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [5/200] Loss:[0.0388] Train:[2.77] Val:[29.87] Biased Test:[32.20] Update Biased Test:[33.33] Best Biased Test:[33.33]| Unbiased Test:[32.20]  Update Unbiased Test:[33.33] Best Unbiased Test:[33.33] epoch:[0] | Time:[0.59 min] | [22.41%] [30.97%] [43.53%] [2.56%] [0.52%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:17:00 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [6/200] Loss:[0.0382] Train:[2.73] Val:[29.47] Biased Test:[32.33] Update Biased Test:[33.33] Best Biased Test:[33.33]| Unbiased Test:[32.33]  Update Unbiased Test:[33.33] Best Unbiased Test:[33.33] epoch:[0] | Time:[0.70 min] | [24.88%] [32.23%] [39.39%] [2.62%] [0.90%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:17:07 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [7/200] Loss:[0.0366] Train:[2.70] Val:[31.20] Biased Test:[33.27] Update Biased Test:[33.33] Best Biased Test:[33.33]| Unbiased Test:[33.27]  Update Unbiased Test:[33.33] Best Unbiased Test:[33.33] epoch:[0] | Time:[0.81 min] | [23.97%] [34.40%] [38.29%] [2.59%] [0.74%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:17:13 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [8/200] Loss:[0.0339] Train:[2.93] Val:[30.27] Biased Test:[33.20] Update Biased Test:[33.33] Best Biased Test:[33.33]| Unbiased Test:[33.20]  Update Unbiased Test:[33.33] Best Unbiased Test:[33.33] epoch:[0] | Time:[0.93 min] | [23.96%] [35.17%] [37.94%] [2.39%] [0.55%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:17:20 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [9/200] Loss:[0.0385] Train:[2.63] Val:[30.33] Biased Test:[33.07] Update Biased Test:[33.33] Best Biased Test:[33.33]| Unbiased Test:[33.07]  Update Unbiased Test:[33.33] Best Unbiased Test:[33.33] epoch:[0] | Time:[1.04 min] | [23.82%] [33.76%] [40.92%] [1.43%] [0.07%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:17:27 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [10/200] Loss:[0.0340] Train:[3.00] Val:[29.87] Biased Test:[34.34] Update Biased Test:[33.33] Best Biased Test:[34.34]| Unbiased Test:[34.34]  Update Unbiased Test:[33.33] Best Unbiased Test:[34.34] epoch:[0] | Time:[1.15 min] | [22.44%] [31.16%] [44.05%] [2.22%] [0.14%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:17:34 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [11/200] Loss:[0.0348] Train:[2.93] Val:[31.93] Biased Test:[34.20] Update Biased Test:[33.33] Best Biased Test:[34.34]| Unbiased Test:[34.20]  Update Unbiased Test:[33.33] Best Unbiased Test:[34.34] epoch:[0] | Time:[1.27 min] | [22.13%] [31.98%] [41.98%] [3.08%] [0.82%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:17:41 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [12/200] Loss:[0.0323] Train:[2.73] Val:[30.00] Biased Test:[33.13] Update Biased Test:[33.33] Best Biased Test:[34.34]| Unbiased Test:[33.13]  Update Unbiased Test:[33.33] Best Unbiased Test:[34.34] epoch:[0] | Time:[1.38 min] | [21.66%] [35.66%] [39.09%] [2.73%] [0.86%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:17:48 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [13/200] Loss:[0.0325] Train:[2.83] Val:[31.67] Biased Test:[35.60] Update Biased Test:[33.33] Best Biased Test:[35.60]| Unbiased Test:[35.60]  Update Unbiased Test:[33.33] Best Unbiased Test:[35.60] epoch:[0] | Time:[1.50 min] | [23.09%] [33.51%] [38.87%] [3.23%] [1.30%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:17:54 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [14/200] Loss:[0.0333] Train:[3.30] Val:[30.73] Biased Test:[31.86] Update Biased Test:[33.33] Best Biased Test:[35.60]| Unbiased Test:[31.86]  Update Unbiased Test:[33.33] Best Unbiased Test:[35.60] epoch:[0] | Time:[1.61 min] | [23.63%] [32.29%] [39.58%] [3.05%] [1.44%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:18:01 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [15/200] Loss:[0.0318] Train:[3.50] Val:[34.13] Biased Test:[36.14] Update Biased Test:[36.14] Best Biased Test:[36.14]| Unbiased Test:[36.14]  Update Unbiased Test:[36.14] Best Unbiased Test:[36.14] epoch:[14] | Time:[1.72 min] | [20.03%] [36.24%] [39.34%] [3.05%] [1.33%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:18:08 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [16/200] Loss:[0.0290] Train:[3.37] Val:[33.47] Biased Test:[37.01] Update Biased Test:[36.14] Best Biased Test:[37.01]| Unbiased Test:[37.01]  Update Unbiased Test:[36.14] Best Unbiased Test:[37.01] epoch:[14] | Time:[1.84 min] | [21.86%] [33.03%] [40.38%] [3.31%] [1.42%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:18:15 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [17/200] Loss:[0.0320] Train:[3.43] Val:[30.67] Biased Test:[33.13] Update Biased Test:[36.14] Best Biased Test:[37.01]| Unbiased Test:[33.13]  Update Unbiased Test:[36.14] Best Unbiased Test:[37.01] epoch:[14] | Time:[1.95 min] | [23.38%] [31.57%] [39.61%] [3.36%] [2.09%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:18:22 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [18/200] Loss:[0.0319] Train:[2.93] Val:[30.07] Biased Test:[32.73] Update Biased Test:[36.14] Best Biased Test:[37.01]| Unbiased Test:[32.73]  Update Unbiased Test:[36.14] Best Unbiased Test:[37.01] epoch:[14] | Time:[2.06 min] | [19.87%] [30.95%] [40.80%] [4.50%] [3.88%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:18:29 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [19/200] Loss:[0.0298] Train:[3.37] Val:[30.33] Biased Test:[33.13] Update Biased Test:[36.14] Best Biased Test:[37.01]| Unbiased Test:[33.13]  Update Unbiased Test:[36.14] Best Unbiased Test:[37.01] epoch:[14] | Time:[2.18 min] | [27.28%] [57.42%] [9.15%] [3.30%] [2.85%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:18:36 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [20/200] Loss:[0.0279] Train:[3.53] Val:[29.73] Biased Test:[33.60] Update Biased Test:[36.14] Best Biased Test:[37.01]| Unbiased Test:[33.60]  Update Unbiased Test:[36.14] Best Unbiased Test:[37.01] epoch:[14] | Time:[2.30 min] | [29.02%] [54.51%] [9.97%] [3.69%] [2.81%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:18:42 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [21/200] Loss:[0.0278] Train:[3.43] Val:[33.20] Biased Test:[37.94] Update Biased Test:[36.14] Best Biased Test:[37.94]| Unbiased Test:[37.94]  Update Unbiased Test:[36.14] Best Unbiased Test:[37.94] epoch:[14] | Time:[2.41 min] | [28.48%] [56.19%] [10.31%] [3.16%] [1.86%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:18:49 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [22/200] Loss:[0.0246] Train:[3.70] Val:[32.60] Biased Test:[35.94] Update Biased Test:[36.14] Best Biased Test:[37.94]| Unbiased Test:[35.94]  Update Unbiased Test:[36.14] Best Unbiased Test:[37.94] epoch:[14] | Time:[2.52 min] | [25.89%] [54.74%] [14.69%] [3.14%] [1.55%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+Epoch    23: reducing learning rate of group 0 to 5.0000e-04.
+Epoch    23: reducing learning rate of group 1 to 5.0000e-03.
+Epoch    23: reducing learning rate of group 0 to 5.0000e-04.
+Epoch    23: reducing learning rate of group 1 to 5.0000e-04.
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:18:56 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [23/200] Loss:[0.0263] Train:[3.63] Val:[36.40] Biased Test:[39.14] Update Biased Test:[39.14] Best Biased Test:[39.14]| Unbiased Test:[39.14]  Update Unbiased Test:[39.14] Best Unbiased Test:[39.14] epoch:[22] | Time:[2.64 min] | [28.17%] [56.32%] [10.76%] [2.99%] [1.76%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:19:03 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [24/200] Loss:[0.0242] Train:[3.83] Val:[35.67] Biased Test:[38.74] Update Biased Test:[39.14] Best Biased Test:[39.14]| Unbiased Test:[38.74]  Update Unbiased Test:[39.14] Best Unbiased Test:[39.14] epoch:[22] | Time:[2.75 min] | [29.32%] [57.40%] [9.58%] [2.30%] [1.40%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:19:10 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [25/200] Loss:[0.0230] Train:[3.87] Val:[35.00] Biased Test:[37.68] Update Biased Test:[39.14] Best Biased Test:[39.14]| Unbiased Test:[37.68]  Update Unbiased Test:[39.14] Best Unbiased Test:[39.14] epoch:[22] | Time:[2.86 min] | [28.55%] [59.68%] [7.81%] [2.51%] [1.46%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:19:17 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [26/200] Loss:[0.0215] Train:[4.00] Val:[34.40] Biased Test:[35.14] Update Biased Test:[39.14] Best Biased Test:[39.14]| Unbiased Test:[35.14]  Update Unbiased Test:[39.14] Best Unbiased Test:[39.14] epoch:[22] | Time:[2.98 min] | [29.63%] [57.71%] [9.16%] [2.19%] [1.30%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:19:24 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [27/200] Loss:[0.0208] Train:[3.93] Val:[32.13] Biased Test:[34.27] Update Biased Test:[39.14] Best Biased Test:[39.14]| Unbiased Test:[34.27]  Update Unbiased Test:[39.14] Best Unbiased Test:[39.14] epoch:[22] | Time:[3.09 min] | [28.18%] [57.35%] [11.14%] [2.34%] [1.00%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:19:31 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [28/200] Loss:[0.0235] Train:[4.10] Val:[33.73] Biased Test:[35.34] Update Biased Test:[39.14] Best Biased Test:[39.14]| Unbiased Test:[35.34]  Update Unbiased Test:[39.14] Best Unbiased Test:[39.14] epoch:[22] | Time:[3.21 min] | [29.34%] [59.15%] [8.08%] [2.27%] [1.16%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:19:38 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [29/200] Loss:[0.0242] Train:[3.93] Val:[34.73] Biased Test:[38.94] Update Biased Test:[39.14] Best Biased Test:[39.14]| Unbiased Test:[38.94]  Update Unbiased Test:[39.14] Best Unbiased Test:[39.14] epoch:[22] | Time:[3.33 min] | [29.93%] [60.71%] [6.03%] [2.19%] [1.14%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:19:44 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [30/200] Loss:[0.0226] Train:[3.93] Val:[31.40] Biased Test:[33.60] Update Biased Test:[39.14] Best Biased Test:[39.14]| Unbiased Test:[33.60]  Update Unbiased Test:[39.14] Best Unbiased Test:[39.14] epoch:[22] | Time:[3.44 min] | [34.12%] [57.15%] [5.67%] [1.99%] [1.08%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+------------------------------------------------------------------------------------------------------------------------
+2022-03-20 11:19:51 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [31/200] Loss:[0.0203] Train:[4.20] Val:[31.80] Biased Test:[34.87] Update Biased Test:[39.14] Best Biased Test:[39.14]| Unbiased Test:[34.87]  Update Unbiased Test:[39.14] Best Unbiased Test:[39.14] epoch:[22] | Time:[3.55 min] | [31.91%] [57.61%] [7.27%] [2.13%] [1.09%]
+------------------------------------------------------------------------------------------------------------------------
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+use_mask 1
+/var/spool/slurmd/job29290268/slurm_script: line 29: 260688 Bus error               (core dumped) python -u $code --config 'configs/superpixels_graph_classification_IRM_MNIST_100k.json' --dataset $dataset --seed $seed0 --irm_lambda $irm_lambda --mask_epochs 200 --out_dir $str1 --eval_epochs 200 --use_mask $use_mask --swap_epochs $swap_epochs --pa $pa --q $q --lambda_dis $lambda_dis --lambda_swap $lambda_swap --pw $pw

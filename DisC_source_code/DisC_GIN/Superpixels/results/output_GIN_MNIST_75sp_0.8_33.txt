@@ -1,0 +1,1 @@
+2022-05-13 02:14:54 | Train IMP:[1] spa[0.00%] spw:[0.00%] | Epoch [1/200] Loss:[0.7181] Train:[75.21] Val:[45.20] Biased Test:[71.33] Update Biased Test:[71.33] Best Biased Test:[71.33]| Unbiased Test:[11.61]  Update Unbiased Test:[11.61] Best Unbiased Test:[11.61]| epoch:[0] | Time:[1.23 min] | [0.10%] [45.66%] [40.90%] [12.47%] [0.87%]

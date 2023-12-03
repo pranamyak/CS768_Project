@@ -1,0 +1,13 @@
+nohup.out
+utils/__pycache__/
+datasets/__pycache__/
+gnn/__pycache__/
+spmotif_gen/__pycache__/
+train/__pycache__/
+
+data/
+dataset/
+local/
+local_/
+
+train/molhiv_dir.py
