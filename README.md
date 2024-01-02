@@ -3,7 +3,6 @@ Code for replicating the results from the paper titled: "NeurIPS2022-Debiasing G
 
 paper: https://arxiv.org/pdf/2209.14107.pdf
 
-![image](https://github.com/googlebaba/DisC/blob/main/framework.png)
 
                                                              The framework of DisC
 
@@ -16,4 +15,4 @@ Unseen test set for Table 2: https://drive.google.com/file/d/18LE0RnUBksGHsbO0lF
 pip -r requirements.txt
 
 # Results Replicated
-New Results present in the results folder
+New Results present in the [results](./results/)
