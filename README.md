@@ -15,18 +15,5 @@ Unseen test set for Table 2: https://drive.google.com/file/d/18LE0RnUBksGHsbO0lF
 # Requirements
 pip -r requirements.txt
 
-# Running the model
-DisC_GCN 
-
-python Disc_gcn_run.py
-
-DisC_Gin
-
-python Disc_gin_run.py
-
-DisC_Gcnii
-
-python Disc_gcnii_run.py
-
-Can also use the command for running the desired model for the required dataset:
-CUDA_VISIBLE_DEVICES=3 python3 main_imp.py --config 'configs/superpixels_graph_classification_GCN_MNIST_100k.json' --dataset MNIST_75sp_0.9 --data_dir '/mnt/nas/pkulkarni/debiasGNN_DisC/Disc_source_code/data/' --seed 31 --mask_epochs 200 --swap_epochs 100 --lambda_swap 10 --use_mask 1 --q 0.7 --lambda_dis 1 --out_dir "output_GCN_MNIST_75sp_0.9_q_0.7_lambda_swap_10" 
+# Results Replicated
+New Results present in the results folder
