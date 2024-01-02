@@ -1,13 +1,11 @@
 # DisC
-Source code for "NeurIPS2022-Debiasing Graph Neural Networks via Learning Disentangled Causal Substructure"
+Code for replicating the results from the paper titled: "NeurIPS2022-Debiasing Graph Neural Networks via Learning Disentangled Causal Substructure"
 
 paper: https://arxiv.org/pdf/2209.14107.pdf
 
 ![image](https://github.com/googlebaba/DisC/blob/main/framework.png)
 
                                                              The framework of DisC
-# Contact
-Shaohua Fan, Email:fanshaohua@bupt.edu.cn
 
 # Datasets 
 Datasets used for Table 1: https://drive.google.com/file/d/1pv_cFKYJxXpT4qJ6jgvNn17MIovZUrhA/view?usp=sharing
